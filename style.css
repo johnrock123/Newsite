@@ -105,8 +105,19 @@ nav ul li a:hover:after{
   
 /* media */
 @media only screen and (max-device-width: 480px){
-    #contact{
-        left-margin:50%;
-    }
+   .btn{
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 16px 40px;
+    border-radius: 500px;
+    
+    font-weight:200px;
+    transition: all .4s ease-in-out;
+    background-size: 152% 100%;
+    background: #fd4766;
+    border: 2px solid #fd4766;
+}
 }
   
